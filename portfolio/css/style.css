@@ -1,0 +1,274 @@
+
+	
+	.imge img{
+		border-radius: 50%;
+		padding:3rem;
+	}
+	.content1{
+		text-align: center;
+		align-items:center;
+	}
+	.content1 span{
+		color: red;
+	}
+	.content1 h1{
+		font-family:'Dancing Script', cursive;
+		font-size:5rem;
+	}
+	.content1 p{
+		font-size:1.5rem;
+		font-weight: 100;
+		line-height:1.5rem;
+	}
+   .social-icons{
+	display: flex;
+    justify-content: space-around;
+   }
+   .icon a{
+	color: red;
+	font-size: 2rem;
+   }
+   
+
+  /*about section*/
+  #abt strong{
+	color: white;
+  }
+  #abt span{
+	color: white;
+  }
+  #abt h3{
+	color:red;
+  }
+  #abt p{
+	color: white;
+  }
+  #abt ul li{
+	list-style: none;
+  }
+  .about{
+	background:black;
+}
+.about img{
+	border-radius: 50%;
+	padding:4rem;
+}
+.section-title h2 {
+    font-size: 2rem;
+    color: white;
+	font-family:'Cinzel', serif;
+}
+.about a{
+	background-color:red;
+    width: 150px;
+    border-radius: 30px 0 60px 30px;
+    color: #fff;
+    padding: 8px 20px;
+	border:none;
+	text-decoration:none;
+}
+.about a:hover{
+	background-color:EB4817!important;
+	color:white;
+}
+@media(min-width:720px){
+	.section-title span{
+		font-size:4rem;
+	}
+	.section-title h2{
+		font-size:2.5rem;
+		font-family:'Cinzel', serif;
+	}
+}
+@media(min-width:1020px){
+	.section-title span{
+		font-size:4rem;
+	}
+	.section-title h2{
+		font-family:'Cinzel', serif;
+		font-size:2.5rem;
+	}
+}
+#abt .row p{
+	font-weight: 500;
+    color:white;
+	text-indent:7rem;
+	text-align:justify;
+	margin-bottom:2rem;
+}
+#abt li{
+	margin-bottom: 20px;
+    align-items: center;
+}
+#abt .bi{
+	color:red;
+}
+
+
+   /*skill section*/
+   .heading h1{
+	position: relative;
+	text-align: center;
+   }
+   .heading h1::after{
+	content:"";
+	position:absolute;
+	top:48px;
+	bottom:0;
+	right:0;
+	left:0;
+	margin: auto;
+	height: 0.1rem;
+	width: 10%;
+	background-color:red;
+   }
+   .heading span{
+	color: red;
+   }
+   .progress-bar{
+	background-color: none;
+	color: aliceblue;
+   }
+   .ski{
+	display: flex;
+   }
+
+   /*resume section*/
+   #Resume-section{
+	background-color:black;
+	color: aliceblue;
+   }
+   .heading-resume{
+	text-align: center;
+	position: relative;
+   }
+   .heading-resume::after{
+	content:"";
+	position:absolute;
+	top:0px;
+	bottom:-54px;
+	right:0;
+	left:0;
+	margin: auto;
+	height: 0.1rem;
+	width: 10%;
+	background-color:red;
+   }
+   .heading-resume span{
+	color: red!important;
+   }
+   
+
+   /*project section*/
+   .pr span{
+	color: red;
+   }
+   .pr{
+	position:relative;
+   }
+   .pr::after{
+    content:"";
+	position:absolute;
+	top:60px;
+	bottom:px;
+	right:0;
+	left:0;
+	margin: auto;
+	height: 0.1rem;
+	width: 10%;
+	background-color:red;
+
+   }
+   .pro span{
+	color: red;
+   }
+   .pro h1{
+	font-size: 2rem;
+	font-family:'Cinzel', serif;
+   }
+   .pro a{
+	background-color:red;
+	list-style: none;
+	color: aliceblue;
+	border-radius: 6px;
+   }
+  .pro p{
+	text-align: center;
+  }
+  .pro p:hover a{
+	background-color:E29594!important;
+	color: white;
+	transition: ease-in-out 0.3s;
+  }
+  .html{
+	  justify-content:center;
+	  align-items:center;
+  }
+  
+  /*contact section*/
+  .contact{
+	background:black;
+	padding:2rem 0;
+}
+#contact h1{
+	color:white;
+}
+#contact span{
+	color:red!important;
+	font-size:2.5rem;
+}
+.con-icon{
+  height: 65px;
+  width: 65px;
+  font-size: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  border: 3px dotted #0dcaf0;
+  align-items: center;
+  display: flex;
+  color:#000;
+}
+  #contact i{
+	color: white;
+  }
+.con-icon:hover{
+  border:3px dotted red;
+  color:white;
+}
+.contact h4{
+  margin-top:1rem;
+  color:red;
+  font-weight:700;
+  font-size:1.2rem;
+}
+.contact h4:hover{
+  color:white;
+}
+.contact p{
+  color:#ab9d95;
+  margin-top:1rem;
+  font-size:1.2rem;
+}
+/*..........................................footer2..............................*/
+.footersec{
+  background-color:black;
+  padding:0.5rem;
+}
+.credits p{
+  color:#fff;
+}
+.credits{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.credits span{
+  color:red;
+}
+@media(min-width:768px){
+	.fl{
+		display:flex;
+	}
+}
